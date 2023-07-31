@@ -2,10 +2,10 @@ console.log(`--------------Assignment 2-------------`);
 
 function marriageEligibility(gender,age) {
     if (gender=='male' && age>=21) {
-        console.log(`${gender} are Eligible for Marriage according to the Indian Constituion`);
+        console.log(`${gender} are Eligible for Marriage Greater than equal to 21 according to the Indian Constituion`);
     } else {
         if (gender=='female' && age>=18)  {
-            console.log(`${gender} are Eligible for Marriage according to the Indian Constituion....`);
+            console.log(`${gender} are Eligible for Marriage Greater than equal to 18 according to the Indian Constituion....`);
         } else {
             console.log(`please enter a valid input`);
         }
