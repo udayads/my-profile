@@ -57,12 +57,16 @@ oddPositionedChars('Soon I will be Angular IT Champ');
 
 console.log(`========================================`);
 function reverseString(str1) {
-    let resvere="";
-    for (let index = str1.length-1; index >=0; index--) {
-        let char=str1.charAt(index);
-        resvere=resvere+char;
-    }
-    console.log(`The reversed string is : "${resvere}"`);
+    // let resvere="";
+    // for (let index = str1.length-1; index >=0; index--) {
+    //     let char=str1.charAt(index);
+    //     resvere=resvere+char;
+    // }
+    // console.log(`The reversed string is : "${resvere}"`);
+    let result = str1.split('');
+    let reverse=result.reverse();
+    let res=reverse.join('');
+    console.log(res);
 }
 reverseString("Hard work always pays back")
 reverseString("Soon I will be Angular IT Champ")
