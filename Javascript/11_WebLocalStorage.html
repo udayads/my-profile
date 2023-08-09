@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Local Storage</title>
+</head>
+<body>
+    <h1>Local Storage</h1>
+    <script>
+        window.localStorage.setItem("name","udaya ds ");
+        window.localStorage.setItem("city","Nelamangala");
+        window.localStorage.setItem("pinCode", 562132);
+        window.localStorage.setItem("district", "Bangalore rural");
+        console.log(window.localStorage.length);
+        let getres=localStorage.getItem('name');
+        console.log(getres);
+        window.localStorage.removeItem("city");
+
+        window.sessionStorage.setItem("name","ravikumar");
+        window.sessionStorage.setItem("city","Bangalore");
+        window.sessionStorage.setItem("pinCode", 560079);
+        window.sessionStorage.setItem("district", "Bangalore");
+        let result=window.sessionStorage.length;
+        console.log(result);
+
+    </script>
+</body>
+</html>
